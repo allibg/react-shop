@@ -1,0 +1,49 @@
+.footer {
+    padding: 50px 0px;
+    background: #fde4e4;
+}
+
+.footer__logo img {
+    width: calc(36%);
+}
+
+.footer__logo p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 28px;
+}
+
+.delivery__time-item {
+    background: transparent !important;
+}
+
+.delivery__time-item span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+}
+
+#send_btn {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    z-index: 110;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#send_btn:hover {
+    transform: scale(1.2);
+}
+.social__links span i{
+    padding: 5px;
+    background: #df2020;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.copyright__text{
+    font-size: 1rem;
+    color: #df2020;
+}
